@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World, Prueba_AudioManagerActivity!</string>
-    <string name="app_name">Prueba_AudioManager</string>
+    <string name="app_name">Prueba_EndCall</string>
 </resources>

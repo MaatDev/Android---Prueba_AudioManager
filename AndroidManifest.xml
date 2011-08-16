@@ -8,9 +8,17 @@
 	<!-- permiso para poder capturar las llamadas  -->
 
 	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	
+	<!-- permiso para colgar una llamada  -->
+	
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	
+	<!-- permiso para contestar una llamada  -->
+	
+	<uses-permission android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".Prueba_AudioManagerActivity"
+        <activity android:name="phone.end.call.Prueba_AudioManagerActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
